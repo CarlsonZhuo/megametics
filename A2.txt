@@ -1,55 +1,29 @@
-首先需要明確一點的是，申請PhD，是需要明確一個研究方向的。
+申請PhD，是需要明確一個研究方向的。
 而不同的研究方向，需要的能力，可能截然不同。
-這個題目太大，在下能力有限，只能給一些pointers: 
-CS 的研究方向：大概可以參考UIUC的faculty area https://cs.illinois.edu/people/faculty-area.
-
-algorithm analysis：需要一定基本的分析能力。
 
 
-Theorectical computer science (TCS)：需要各種各樣的數學工具，可以參考知乎用戶Chao Xu (UIUC CS PhD，本科數學）。
-可以參考professor Siu-on Chan，據說也是一個非常好的advisor。
-也可以參考發在SODA等會議上的各種paper。
+有很多CS的研究方向，是需要紮實的數學能力的，甚至有不少學校的CS專業開設在數學院下。比如說，Theorectical computer science需要用到game theory；machine learning需要用到optimisation，需要用到probability theory，需要用到statistical analysis；等等等等。
 
 
-Machine Learning (ML)：這裏不包括deep learning。
-有一波人從optimization的角度去考慮ML，比如說 Tong Zhang( http://tongzhang-ml.org/)，Constantine Caramanis。
-有一波人做statistical machine learning，比如Inderjit Dhillon, Pradeep Ravikumar，probabilistic graphical model也算在內（可以參考Eric Xing的課件http://www.cs.cmu.edu/~epxing/Class/10708/）。
-也有做得比較偏數據挖掘的Joydeep Ghosh。
-可以參考NIPS, ICML, ICLR等會議中，非deep learning的paper。
+對于很多研究方向，數學能力是一個必要非充分條件。
+還有一個關鍵的因素，是研究的Taste。
+這個Taste，包括問題背景、研究興趣和角度。
+第一，是要理解研究的具體問題的背景。
+數學能力是錘子，而問題是釘子（by沈向洋），如果不看清楚釘子，分分鐘錘到手…我曾經花了很長時間去證明一件事情，然後被告知用了一個不對的假設，即使那個假設符合常理，paper仍然被毫無餘地地拒了。
+第二，是同一個問題，也能有不同的研究興趣和角度。
+比如說，小到一個非常具體的問題，l1 norm regularized optimization，做CS的人可能是在考慮設計個快的算法來最小化loss value，做signal的人可能會考慮sparsity從而得到一個關于perfect recovery的bound，而做統計的人可能是在考慮estimation bias。
 
 
-ML theory：這裏面流派特別多，各自需要不同的數學工具和能力。
-有做PAC Learning Theory的，比如美男子Michael Kearns。
-其他的我不是很懂。
-可以參考COLT上發表的各種paper
-Graphics / Computational Geometry ：懂的不多，參考Leonidas Guibas. CUHK的數學系系主任Raymond Chan做image processing，但是或許也接近那些做signal processing的人的taste。
+對於上面提到的需要什麼數學能力和taste的問題，當然有許多渠道去解決。
+然而個人覺得，最高效的方法，是跟著相關教授做research。
 
 
-Quantum Information：在我的理解範圍外。
-參考Scott Aaronson的paper（而不是博客）。
+當然了，Taste的問題不是很大——Taste偏EE，那就申請EE的項目去，偏統計就申統計。
+但是是申請的項目要跟自己的taste匹配。
 
-
-Deep Learning：（它是如此之火以至于要單列出來說）學術界中相當一部分人，是不滿足于yet another model that works的，而是嘗試去理解模型的內涵。
-所以有一些人在嘗試理解deep learning，比如說”deep learning without poor local minima“這篇文章，和它的作者Kenji Kawaguchi的其他一些工作；比如Matus Telgarsky的”Representation Benefits of Deep Feedforward Networks”，等等。
-這些需要用到functional analysis，topology，abstract algebra，tensor等等工具。
-
-
-對于很多問題，數學能力是一個必要非充分條件。
-還有一個關鍵的因素，而且，我覺得是阻攔大部分數學系同學做CS研究的因素，那是研究的Taste。
-這個Taste，包括問題背景，包括研究興趣和角度。
-第一，是要理解研究的具體問題。
-數學能力是錘子，而問題是釘子（by沈向洋），如果不看清楚釘子，分分鐘錘到手…比如，我做系統研究那會兒，花了很長時間證了一個玩意兒，然後被告知用了一個不對（即使符合常理）的假設，于是paper被毫無商量地拒了。
-第二，是同一個問題，也能有不同的角度。
-比如說，小到一個非常具體的小問題，l1 norm regularized optimization，做CS的人可能是在考慮設計個快的算法來最小化loss value，做信號的人可能會考慮sparsity從而得到一個關于perfect recovery的bound，而做統計的人可能是在考慮bias。
-要申請CS的PhD，我比較建議先去瞭解一下CS researcher的taste。
-這個可以通過很多渠道瞭解，跟著相關教授做research是最快速的瞭解相關領域研究人員的taste的手段，也可以通過讀相關conference上出現的paper。
-
-
-當然了，Taste不是問題—Taste偏EE，那就申請EE的項目去，偏統計就申統計。
-關鍵是申請的項目要跟自己的taste匹配。
 
 所以，回到這個問題。
-CS PhD對數學的要求可以很高，如果你在你的申請文書裏面說你要做machine learning theory；也可以很低，如果你提你要去做system implementation；如果你說你要做statistical machine learning，那怎麽樣也得懂一些統計。
+CS PhD對數學的要求可以很高，如果你在你的申請文書裏面說你要做theoretical computer science；也可以很低，如果你提你要去做system implementation；如果你說你要做statistical machine learning，那怎麽樣也得懂一些統計。
 
 
 Take Home Message是，你在申請文書中提到的你的未來的研究興趣和研究方向，提到你對這個方向的理解和經歷（taste），幷且要證明你大致擁有與之相匹配的數學／統計／計算機能力。
